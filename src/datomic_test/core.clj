@@ -40,4 +40,8 @@
        (d/db conn)
        user-name))
 
-(add-user "Bob")
+;; ----- USAGE EXAMPLES -----
+;; (add-user "Bob")
+;; (all-users)
+;; (add-account "Bob-1" "Bob")
+;; (user-accounts "Bob")
